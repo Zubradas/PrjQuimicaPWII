@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" role="img" aria-label="Quadro da tabela periódica: ítrio, símbolo Y, número atômico 39, massa 88,906">
+  <defs>
+    <linearGradient id="placa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22363f"/>
+      <stop offset="1" stop-color="#121e24"/>
+    </linearGradient>
+    <filter id="brilho" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="292" height="332" rx="14" fill="url(#placa)" stroke="#8da3af" stroke-width="2"/>
+  <text x="26" y="62" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#8fb8dc">39</text>
+  <text x="274" y="58" text-anchor="end" font-family="Georgia, serif" font-size="20" fill="#aebdc6">88,906</text>
+  <text x="150" y="222" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif" font-size="170" font-weight="600" fill="#8fb8dc" filter="url(#brilho)" opacity=".55">Y</text>
+  <text x="150" y="222" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif" font-size="170" font-weight="600" fill="#eaf0f3">Y</text>
+  <text x="150" y="292" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#eaf0f3">Ítrio</text>
+  <text x="150" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#aebdc6">Grupo 3, período 5</text>
+</svg>
